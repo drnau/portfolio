@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+html {
+  font-size: 18px;
+  font-family: 'Work sans', sans-serif;
+  background-image: url(background_chimie2.jpg);
+  background-repeat: no-repeat;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(182, 180, 180);
+  border: 5px solid black;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #333;
+  background-image: url(background_chimie2.jpg);
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgb(102, 181, 218);
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.corps {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.gauche {
+  width: 30%;
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.droite {
+  width: 70%;
+  height: 100%;
+  background-color: white;
+  padding: 10px;
+}
+
+h3 {
+  text-decoration: underline;
+  font-size: 20px;
+  color : rgba(9, 9, 93, 0.781);
+}
+
+p{
+  color: black;
+  background-color: rgb(231, 236, 243);
+  font-size: 15px;
+  height: 100%;
+  max-height: 200px;
+  min-height: 200px;
+  padding: 10px;
+  overflow:auto;
+  scrollbar-track-color: blue;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.footer {
+  background-color: rgb(255, 239, 239);
+  border: 2px solid black;
+  text-align: center;
+  padding: 2px 2px 2px 2px;
+}
+
+.container p {
+  background-color:rgb(189, 186, 186);
+  height: 10px;
+  color: black;
+}
+
+* {box-sizing:border-box}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  width: 98%;
+}
+.leftcolumnb{
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px 10px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+.rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+form {
+  padding: 10px;
+}
+input[type="textarea"] {
+  width: 50%;
+  height: 100px;
+}
