@@ -175,3 +175,6 @@ form {
 textarea {
     width: 70%;
 }
+nav a:hover {
+  opacity: 0.7;
+}
