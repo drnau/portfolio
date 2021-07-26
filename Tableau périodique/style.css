@@ -36,7 +36,7 @@ img {
 .-metalloid{
     background-color:royalblue;
     color: white;
-    border-color: black;
+    outline-color: black;
 
 }
 
@@ -51,7 +51,7 @@ img {
 .-post-transition-metal{
     background-color: purple;
     color: white;
-    border-color: black;
+    outline-color: black;
 
 }
 
@@ -62,21 +62,21 @@ img {
 .-lanthanide{
     background-color: green;
     color: white;
-    border-color: black;
+    outline-color: black;
 
 }
 
 .-actinide{
     background-color:brown;
     color: white;
-    border-color: black;
+    outline-color: black;
 
 }
 
 .-unknown{
     background-color: gray;
     color: white;
-    border-color: black;
+    outline-color: black;
 
 }
 @media (min-width: 1200px) {
